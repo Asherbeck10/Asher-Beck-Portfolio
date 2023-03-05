@@ -4,9 +4,10 @@
   {
     "id": 1,
     "website": "",
-    "image": "./assets/scheduler.png",
+    "image": "../assets/scheduler.png",
     "gitHub": "https://github.com/Asherbeck10/Work-Day-Scheduler",
-    "name": "Work Day Scheduler"
+    "name": "Work Day Scheduler",
+    "skills":"HTML"
   },
   {
     "id": 2,
