@@ -1,14 +1,16 @@
 import React from 'react'
 import ProjectGallery from '../../Components/ProjectGallery'
-import Scheduler from '../../assets/schedular.png'
 import './style.css'
-//çimport projectList from '../../projectsList.json'
+import projectsList from '../../projectsList.json'
+
 function Projects() {
   return (
     <div className='projects'>
       <h1>My Projects</h1>
       <div className='projectList'>
-        <ProjectGallery name="Schedular" image={Scheduler}/>
+        {projectsList.map((project)=>{
+          return <ProjectGallery name={project.name} image={project.image}/>
+        })}
       </div>
 
     </div>
