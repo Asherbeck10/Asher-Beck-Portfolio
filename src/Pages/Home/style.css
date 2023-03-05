@@ -1,3 +1,18 @@
+.App-header {
+  position: relative;
+}
+
+.Profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
 .home {
   width: 100%;
   align-items: center;

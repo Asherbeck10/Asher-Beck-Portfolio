@@ -3,9 +3,14 @@ import './style.css';
 import {FaGithub,FaLinkedin} from 'react-icons/fa'
 import{AiTwotoneMail} from 'react-icons/ai'
 import {FcDocument} from 'react-icons/fc'
+import myPhoto from '../assets/my_photo.jpeg'
 function Home() {
   return (
     <div className='"home'>
+      <header className="App-header">
+        <img src={myPhoto} className="Profile-pic" alt="Profile" />
+        
+      </header>
       <div className="about">
       <h2>Hello, My Name is Asher</h2>
       <div className='prompt'>
