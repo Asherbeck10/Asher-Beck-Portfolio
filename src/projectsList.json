@@ -14,8 +14,11 @@
     "website": "",
     "image": "../assets/html_page.png",
     "gitHub": "https://github.com/Asherbeck10/Team-Profile-Generator",
-    "name": "Team Profile Generator"
-  },
+    "name": "Team Profile Generator",
+    "about": "This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. It displays a basic info so that a user have quick access to their emails and GitHub profiles.",
+    "skills":""
+  } ,
+
   {
     "id": 2,
     "website": "https://asherbeck10.github.io/Code-Quiz/",

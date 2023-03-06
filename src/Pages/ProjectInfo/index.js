@@ -11,6 +11,7 @@ function ProjectInfo() {
   return (<div className='project'>
     <h1>{project.name}</h1>
     <img src={project.image} alt={project.name}></img>
+    <p><b>About:</b>{project.about}</p>
     <p><b>Skills:</b>{project.skills}</p>
     <div style={{ display: 'flex', justifyContent:'space-between' }}>
     <a href={project.gitHub}  target="_blank"  rel="noreferrer"><FaGithub/></a> 

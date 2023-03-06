@@ -15,13 +15,14 @@ function Home() {
       <h2>Hello, My Name is Asher</h2>
       <div className='prompt'>
         <div>
-        <p>here will be something about me </p>
+        <p>I like to build applications that will make your life easier  </p>
         </div>
 
         
         
-        <AiTwotoneMail/>
-        <AiFillPhone/>
+        <a href="mailto:example@example.com"><AiTwotoneMail/></a>
+         <a href="tel:+1234567890"><AiFillPhone/></a>
+
         <a href="https://github.com/Asherbeck10" target="_blank"  rel="noreferrer"><FaGithub/></a>
        <a href="https://www.linkedin.com/in/asher-beck-276454259/" target="_blank"  rel="noreferrer" > <FaLinkedin/></a>
        <a href={CV} target="_blank"  rel="noreferrer"> <FcDocument/></a>
@@ -35,15 +36,15 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-End</h2>
-            <p></p>
+            <p>ReactJS, HTML, CSS, Bootstrap,NPM,Git</p>
           </li>
           <li className='item'>
             <h2>Back-End</h2>
-            <p></p>
+            <p>Django, NodeJS,SQL,Git</p>
           </li>
           <li className='item'>
             <h2>Languages</h2>
-            <p></p>
+            <p>JavaScript,Python</p>
           </li>
 
 
