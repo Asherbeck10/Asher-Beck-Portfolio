@@ -7,25 +7,34 @@ import "./style.css";
 
 const schema = yup.object().shape({
   firstName: yup.string().required("First Name is Required"),
-  lastName: yup.string().required(),
-  email: yup.string().email().required(),
+  lastName: yup.string().required("Last Name is Required"),
+  email: yup.string().email().required("Valid Email is Required"),
   content: yup.string().min(25).max(150).required(),
   
   
-}).required();
+})
 
-const Contact=()=> {
-  const { register, handleSubmit } = useForm({
+function Contact() {
+  const { register, handleSubmit,formState:{errors}} = useForm({
     resolver: yupResolver(schema),
   });
 
-  
+  // const [isShow, setIsShow] = React.useState(false);
+
+  const onSubmit = (data) => {
+    console.info(data);
+  };
+
+  const onError = (errors) => {
+    console.error(errors);
+  };
 
   return (
+    <div className="contact">
     <div className="Form">
       <div className="title">Contact Me</div>
       <div className="inputs">
-        <form onSubmit={handleSubmit(data=>console.log(data))}>
+        <form onSubmit={handleSubmit(onSubmit,onError)}>
           <input
             type="text"
             {...register("firstName")}
@@ -33,7 +42,7 @@ const Contact=()=> {
             // ref={register}
             placeholder="First Name..."
           />
-         
+         <p> {errors.firstName?.message} </p>
           <input
             type="text"
             // name="lastName"
@@ -41,6 +50,7 @@ const Contact=()=> {
             placeholder="Last Name..."
             // ref={register}
           />
+          <p> {errors.lastName?.message} </p>
          
           <input
             type="text"
@@ -49,19 +59,20 @@ const Contact=()=> {
             placeholder="Email..."
             // ref={register}
           />
-          
-          <input
+          <p> {errors.email?.message} </p>
+          <input id="content"
             type="text"
             // name='password'
             {...register("content")}
             placeholder="..."
             // ref={register}
           />
-          
+          <p> {errors.content?.message} </p>
           
           <input type="submit" id="submit" />
         </form>
       </div>
+    </div>
     </div>
   );
 }
