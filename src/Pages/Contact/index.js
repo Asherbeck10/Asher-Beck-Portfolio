@@ -38,34 +38,34 @@ function Contact() {
           <input
             type="text"
             {...register("firstName")}
-            // name="firstName"
-            // ref={register}
+            
             placeholder="First Name..."
           />
          <p> {errors.firstName?.message} </p>
           <input
             type="text"
-            // name="lastName"
             {...register("lastName")}
             placeholder="Last Name..."
-            // ref={register}
+            
+           
           />
           <p> {errors.lastName?.message} </p>
          
           <input
             type="text"
             {...register("email")}
-            // name="email"
+           
             placeholder="Email..."
-            // ref={register}
+          
           />
           <p> {errors.email?.message} </p>
-          <input id="content"
+          <textarea id="message" name="message" rows="5" cols="50"
+         
             type="text"
-            // name='password'
+          
             {...register("content")}
             placeholder="..."
-            // ref={register}
+          
           />
           <p> {errors.content?.message} </p>
           

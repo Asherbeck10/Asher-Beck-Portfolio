@@ -12,36 +12,36 @@
   {
     "id": 1,
     "website": "",
-    "image": "",
-    "gitHub": "",
+    "image": "../assets/html_page.png",
+    "gitHub": "https://github.com/Asherbeck10/Team-Profile-Generator",
     "name": "Team Profile Generator"
   },
   {
     "id": 2,
-    "website": "",
-    "image": "",
-    "gitHub": "",
+    "website": "https://asherbeck10.github.io/Code-Quiz/",
+    "image":"../assets/quiz.png",
+    "gitHub": "https://github.com/Asherbeck10/Code-Quiz",
     "name": "Code Quiz"
   },
   {
     "id": 3,
     "website": "",
-    "image": "",
-    "gitHub": "",
+    "image": "../assets/Demo.gif",
+    "gitHub": "https://github.com/Asherbeck10/Professional-README-Generator",
     "name": "Professional README Generator"
   },
   {
     "id": 4,
-    "website": "",
-    "image": "",
-    "gitHub": "",
+    "website": "https://asherbeck10.github.io/Weather-Dashboard/",
+    "image": "../assets/weather_dashboard.png",
+    "gitHub": "https://github.com/Asherbeck10/Weather-Dashboard",
     "name": "Weather Dashboard"
   },
   {
     "id": 5,
-    "website": "",
-    "image": "",
-    "gitHub": "",
+    "website": "https://asherbeck10.github.io/Bites-and-Booze/",
+    "image": "../assets/website.gif",
+    "gitHub": "https://github.com/Asherbeck10/Bites-and-Booze",
     "name": "Bites and Booze"
   }
   

@@ -13,8 +13,8 @@ function ProjectInfo() {
     <img src={project.image} alt={project.name}></img>
     <p><b>Skills:</b>{project.skills}</p>
     <div style={{ display: 'flex', justifyContent:'space-between' }}>
-    <a href={project.gitHub}><FaGithub/></a> 
-    <a href={project.website}><GrDeploy/></a> 
+    <a href={project.gitHub}  target="_blank"  rel="noreferrer"><FaGithub/></a> 
+    <a href={project.website}  target="_blank"  rel="noreferrer"><GrDeploy/></a> 
       </div>
     
 

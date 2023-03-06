@@ -47,15 +47,8 @@
   .inputs #submit {
     cursor: pointer;
   }
-  #content{
-    width: 250px;
-    height: 120px;
-    font-size: 20px;
-    border-radius: 6px;
-    border: none;
-    padding-left: 10px;
-    margin-top: 10px;
-  }
-  p{
+  
+  
+  form p{
     color:red
   }
