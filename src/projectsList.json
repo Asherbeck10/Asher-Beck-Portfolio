@@ -6,17 +6,19 @@
     "website": "https://asherbeck10.github.io/Work-Day-Scheduler/",
     "image": "../assets/scheduler.png",
     "gitHub": "https://github.com/Asherbeck10/Work-Day-Scheduler",
+    "about":"This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.The time lines are color-coded each time line color based on past(gary), present(red), and future (green).",
     "name": "Work Day Scheduler",
-    "skills":"HTML"
+    "skills":" HTML,CSS, Bootstrap,DOM manipulation, jQuery library, Moment.js"
+
   },
   {
     "id": 1,
-    "website": "",
+    "website": "https://1.bp.blogspot.com/-Uc8mm4nZBmE/XZS88ZrFHmI/AAAAAAAAgKk/Rj6r_Z-Ac7g154HwZq97fO6jQcLfcNL2wCLcBGAsYHQ/s1600/Deploy%2BCICD.png",
     "image": "../assets/html_page.png",
     "gitHub": "https://github.com/Asherbeck10/Team-Profile-Generator",
     "name": "Team Profile Generator",
     "about": "This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. It displays a basic info so that a user have quick access to their emails and GitHub profiles.",
-    "skills":" inheritance in JavaScript, constructor functions, test-driven development"
+    "skills":" inheritance in JavaScript, constructor functions, test-driven development,NPM"
   } ,
 
   {
@@ -24,29 +26,42 @@
     "website": "https://asherbeck10.github.io/Code-Quiz/",
     "image":"../assets/quiz.png",
     "gitHub": "https://github.com/Asherbeck10/Code-Quiz",
-    "name": "Code Quiz"
+    "name": "Code Quiz",
+    "about": "A typical coding assessment made of of multiple-choice questions and interactive coding challenges.",
+    "skills": "Extract data from a web page and place data into it, Trigger JavaScript functions on events , add interactivity to a pageStore data on the client side using local storage"
   },
   {
     "id": 3,
-    "website": "",
+    "website": "https://1.bp.blogspot.com/-Uc8mm4nZBmE/XZS88ZrFHmI/AAAAAAAAgKk/Rj6r_Z-Ac7g154HwZq97fO6jQcLfcNL2wCLcBGAsYHQ/s1600/Deploy%2BCICD.png",
     "image": "../assets/Demo.gif",
     "gitHub": "https://github.com/Asherbeck10/Professional-README-Generator",
-    "name": "Professional README Generator"
+    "name": "Professional README Generator",
+    "about": "A quickly and easily to use command-line application to generate high-quality README.",
+    "skills": "Node.js environments, arrow functions for anonymous callback functions, ES6 core language spread and rest operators."
   },
   {
     "id": 4,
     "website": "https://asherbeck10.github.io/Weather-Dashboard/",
     "image": "../assets/weather_dashboard.png",
     "gitHub": "https://github.com/Asherbeck10/Weather-Dashboard",
-    "name": "Weather Dashboard"
+    "name": "Weather Dashboard",
+    "about": "this application  retrieve daily weather for more then 200,000 cities and gives a 5 days weather forecast",
+    "skills": "Access data on REST web APIs, using AJAX calls ,Process returned data to isolate key elements, use  JavaScript logicGenerate page elements based on API responses"
+
   },
   {
     "id": 5,
     "website": "https://asherbeck10.github.io/Bites-and-Booze/",
     "image": "../assets/website.gif",
     "gitHub": "https://github.com/Asherbeck10/Bites-and-Booze",
-    "name": "Bites and Booze"
+    "name": "Bites and Booze",
+    "about": "This app will provide users with recipes for both food and cocktails. Users can search for their favorite ingredients or dishes.",
+    "skills": "JavaScript,Git branches and merge conflict,agile development "
+
   }
   
   
 ]
+    
+    
+   
