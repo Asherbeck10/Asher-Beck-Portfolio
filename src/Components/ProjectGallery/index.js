@@ -8,6 +8,7 @@ function ProjectGallery({image ,name,id}) {
     onClick={()=>{
       navigate("/project/" + id)
     }}>
+      {/* looping the project list */}
         <div>
             <div style={{ backgroundImage: `url(${image})` }}  className="bgImage"/>
             <h1>{name}</h1>

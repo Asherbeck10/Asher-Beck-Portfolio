@@ -4,7 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import "./style.css";
 
-
+// yup schema for validation
 const schema = yup.object().shape({
   firstName: yup.string().required("First Name is Required"),
   lastName: yup.string().required("Last Name is Required"),
@@ -19,7 +19,7 @@ function Contact() {
     resolver: yupResolver(schema),
   });
 
-  // const [isShow, setIsShow] = React.useState(false);
+ 
 
   const onSubmit = (data) => {
     console.info(data);
