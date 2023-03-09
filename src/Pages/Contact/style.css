@@ -8,7 +8,9 @@
     align-items: center;
   }
   
- 
+ #confirm {
+  color: red;
+ }
   
   .Form {
     width: 500px;

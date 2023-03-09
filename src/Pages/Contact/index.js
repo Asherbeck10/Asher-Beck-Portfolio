@@ -16,7 +16,7 @@ const schema = yup.object().shape({
   
 })
 function SuccessMessage() {
-  return <div>Your message sent successfully!</div>;
+  return <div id="confirm">Your message sent successfully!</div>;
 }
 
 function Contact() {
@@ -56,6 +56,7 @@ function Contact() {
     <div className="contact">
     <div className="Form">
       <div className="title">Contact Me</div>
+      {isEmailSent && <SuccessMessage />}
       <div className="inputs">
         
         <form ref={form} onSubmit={handleSubmit(onSubmit,onError)}>
@@ -97,7 +98,7 @@ function Contact() {
         </form>
       </div>
     </div>
-    <div><b>{isEmailSent && <SuccessMessage />}</b></div>
+    
     </div>
   );
 }
