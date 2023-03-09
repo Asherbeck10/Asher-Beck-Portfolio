@@ -41,7 +41,7 @@ Click on the project icon to get more information.
 
 * Contact
 
-To get in touch fill the form and submit.
+To get in touch fill the form and submit. You will get a confirmation message if it was successful.
 
 ![Contact](/assets/contact.png)
 
@@ -49,6 +49,7 @@ To get in touch fill the form and submit.
 ## Credits
 * yup-used for validation
 * react-icons-used for icons
+* EmailJS-to sent message to email.
 
 ## license
 ISC License (ISC)
