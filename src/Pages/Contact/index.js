@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import "./style.css";
 
@@ -15,11 +15,15 @@ const schema = yup.object().shape({
   
   
 })
+function SuccessMessage() {
+  return <div>Your message sent successfully!</div>;
+}
 
 function Contact() {
   const { register, handleSubmit,formState:{errors}} = useForm({
     resolver: yupResolver(schema),
   });
+  const [isEmailSent, setIsEmailSent] = useState(false);
 
   const form = useRef();
 
@@ -30,7 +34,7 @@ function Contact() {
     emailjs.sendForm('service_r4h5a8v', 'template_x595gla', form.current, 'WSB8Sfmm1_KIAsx5g')
       .then((result) => {
           console.log(result.text);
-          
+          setIsEmailSent(true);
          
       }, (error) => {
           console.log(error.text);
@@ -93,6 +97,7 @@ function Contact() {
         </form>
       </div>
     </div>
+    <div><b>{isEmailSent && <SuccessMessage />}</b></div>
     </div>
   );
 }
