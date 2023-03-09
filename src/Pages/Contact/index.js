@@ -2,6 +2,8 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import "./style.css";
 
 // yup schema for validation
@@ -19,14 +21,31 @@ function Contact() {
     resolver: yupResolver(schema),
   });
 
- 
+  const form = useRef();
 
-  const onSubmit = (data) => {
-    console.info(data);
+  const sendEmail = (e) => {
+   if(e)
+   { e.preventDefault();}
+
+    emailjs.sendForm('service_r4h5a8v', 'template_x595gla', form.current, 'WSB8Sfmm1_KIAsx5g')
+      .then((result) => {
+          console.log(result.text);
+          
+         
+      }, (error) => {
+          console.log(error.text);
+          
+      });
   };
+
+  const onSubmit = (data, e) => {
+  console.info(data);
+  sendEmail(e);
+};
 
   const onError = (errors) => {
     console.error(errors);
+    
   };
 
   return (
@@ -34,7 +53,8 @@ function Contact() {
     <div className="Form">
       <div className="title">Contact Me</div>
       <div className="inputs">
-        <form onSubmit={handleSubmit(onSubmit,onError)}>
+        
+        <form ref={form} onSubmit={handleSubmit(onSubmit,onError)}>
           <input
             type="text"
             {...register("firstName")}
