@@ -1,5 +1,7 @@
 # Portfolio
 ![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ## Description
 This is a personal portfolio website to showcase my work and skills.
