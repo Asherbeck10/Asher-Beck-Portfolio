@@ -13,6 +13,7 @@ function Home() {
       </header>
       <div className="about">
       <h2>Hello, My Name is Asher</h2>
+      <h3>Front-End Developer</h3>
       <div className='prompt'>
         <div>
         <p>I like to build applications that will make your life easier  </p>
