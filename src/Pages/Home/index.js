@@ -4,7 +4,7 @@ import {FaGithub,FaLinkedin} from 'react-icons/fa'
 import{AiTwotoneMail,AiFillPhone} from 'react-icons/ai'
 import {FcDocument} from 'react-icons/fc'
 import myPhoto from '../../assets/my_photo.jpeg'
-import CV from '../../assets/CV.pdf'
+import cv from '../../assets/cv.pdf'
 function Home() {
   return (
     <div className='"home'>
@@ -21,12 +21,12 @@ function Home() {
 
         
         
-        <a href="mailto:example@example.com"><AiTwotoneMail/></a>
-         <a href="tel:+1234567890"><AiFillPhone/></a>
+        <a href="mailto:asher.bec@gmail.com" target="_blank"  rel="noreferrer"><AiTwotoneMail/></a>
+         <a href="tel:+447717502461"><AiFillPhone/></a>
 
         <a href="https://github.com/Asherbeck10" target="_blank"  rel="noreferrer"><FaGithub/></a>
        <a href="https://www.linkedin.com/in/asher-beck-276454259/" target="_blank"  rel="noreferrer" > <FaLinkedin/></a>
-       <a href={CV} target="_blank"  rel="noreferrer"> <FcDocument/></a>
+       <a href={cv} target="_blank"  rel="noreferrer"> <FcDocument/></a>
       
       </div>
       </div>
