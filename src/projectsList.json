@@ -3,7 +3,7 @@
 [
   {
     "id": 0,
-    "website": "https://vercel.com/asherbeck10/job-hive",
+    "website": "https://job-hive-beta.vercel.app/",
     "image": "../assets/logo.png",
     "gitHub": "https://github.com/Asherbeck10/Job-Hive",
     "about":"Job Hive is a web application that aggregates all job listings from multiple sources such as Google, LinkedIn, Indeed, and Reed in one place, to help job seekers find employment opportunities easier.",
