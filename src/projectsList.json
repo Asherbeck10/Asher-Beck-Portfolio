@@ -3,12 +3,13 @@
 [
   {
     "id": 0,
-    "website": "https://asherbeck10.github.io/Work-Day-Scheduler/",
-    "image": "../assets/scheduler.png",
-    "gitHub": "https://github.com/Asherbeck10/Work-Day-Scheduler",
-    "about":"This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.The time lines are color-coded each time line color based on past(gary), present(red), and future (green).",
-    "name": "Work Day Scheduler",
-    "skills":" HTML,CSS, Bootstrap,DOM manipulation, jQuery library, Moment.js"
+    "website": "https://vercel.com/asherbeck10/job-hive",
+    "image": "../assets/logo.png",
+    "gitHub": "https://github.com/Asherbeck10/Job-Hive",
+    "about":"Job Hive is a web application that aggregates all job listings from multiple sources such as Google, LinkedIn, Indeed, and Reed in one place, to help job seekers find employment opportunities easier.",
+    "name": "Job Hive Web App ",
+    "skills":" React, JSearch API, Tailwind, Formik, Yup ,EmailJS, Agile development.."
+    
 
   },
   {
