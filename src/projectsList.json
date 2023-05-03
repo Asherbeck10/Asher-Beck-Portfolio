@@ -59,6 +59,16 @@
     "about": "This app will provide users with recipes for both food and cocktails. Users can search for their favorite ingredients or dishes.",
     "skills": "JavaScript,Git branches and merge conflict,agile development "
 
+  },
+  {
+    "id": 6,
+    "website": "https://discover-coffee-stores-pi-six.vercel.app/",
+    "image": "../assets/discover-coffee-stores.png",
+    "gitHub": "https://github.com/Asherbeck10/discover-coffee-stores",
+    "name": "discover-coffee-stores",
+    "about": "This app will provide users with ability to discover coffee shops in their area .",
+    "skills": "NextJS,React Hooks,Severless Functions,Static rendering,Airtable,Unsplash API,HTML Geolocation "
+
   }
   
   
